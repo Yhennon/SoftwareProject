@@ -1,5 +1,5 @@
 # SoftwareProject
-Egy szoftverfejlesztési módszertanokról szóló project.
+Egy szoftverfejlesztési módszertanok órára készült project.
 
 ## Cél 
 A cél egy fénykép galéria létrehozása, amiben első sorban különböző, Magyarországon kapható
