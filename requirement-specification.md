@@ -9,4 +9,4 @@ egyre rákattintva előtérbe lehessen helyezni.
 
 ## Használt eszközök
 
-A project elkészítéséhez HTML-t, CSS-t használunk.
+A project elkészítéséhez HTML-t, CSS-t használunk...
