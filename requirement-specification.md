@@ -1,6 +1,13 @@
 # Követelmény specifikáció
 
-Célunk egy webböngészőben megtekinthető galéria létrehozása, ahol speciálisan, különböző hazánkban is kapható sörfajtákat jelenítünk meg.
+
+## Jelenlegi helyzet
+
+Az esetek többségében sok időt töltünk azzal, hogy kiválasszuk egy szórakozóhelyen/kocsmában, hogy milyen sört is igyunk. Ráadásul az árak sem egységesek a különböző vendéglátó egységeknél, szóval nincs egyszerű dolga az embernek. Ötletünkkel szeretnénk pénzt és időt spórolni.
+
+## Vágyálom rendszer
+
+Célunk egy webböngészőben megtekinthető galéria létrehozása, ahol speciálisan, különböző hazánkban is kapható sörfajtákat jelenítünk meg. Annak érdekében, hogy mindenki el tudja dönteni mielőtt egy adott kocsmába belép, hogy ott milyen sört érdemes fogyasztani, a galériában megjelenő információ tartalmazza az adott termék árát Debrecen híresebb pub-jai viszonylatában.
 
 ## Követelmények 
 
