@@ -1,37 +1,38 @@
 # Követelmény specifikáció
 
 
-## Jelenlegi helyzet
+## 1. Jelenlegi helyzet
 
 Az esetek többségében sok időt töltünk azzal, hogy kiválasszuk egy szórakozóhelyen/kocsmában, hogy milyen sört is igyunk. Ráadásul az árak sem egységesek a különböző vendéglátó egységeknél, szóval nincs egyszerű dolga az embernek. Ötletünkkel szeretnénk pénzt és időt spórolni.
 
-## Vágyálom rendszer
+## 2. Vágyálom rendszer
 
 Célunk egy webböngészőben megtekinthető galéria létrehozása, ahol speciálisan, különböző hazánkban is kapható sörfajtákat jelenítünk meg. Annak érdekében, hogy mindenki el tudja dönteni mielőtt egy adott kocsmába belép, hogy ott milyen sört érdemes fogyasztani, a galériában megjelenő információ tartalmazza az adott termék árát Debrecen híresebb pub-jai viszonylatában.
 
-## Követelmények 
+## 3. Követelménylista 
 
-+ A weboldalon legyen egy igényesen megformált welcome page, valamint egy külön page magának a galériának. 
+   + A weboldalon legyen egy igényesen megformált welcome page, valamint egy külön page magának a galériának. 
 
-+ Az egyes képeket lehessen megtekinteni külön-külön, azaz bármelyikre rákattintva előtérbe kerüljön.
+   + Az egyes képeket lehessen megtekinteni külön-külön, azaz bármelyikre rákattintva előtérbe kerüljön.
 
-+ Minden képhez tartozzon egy rövid leíró rész.
+   + Jó lenne, ha minden képhez tartozna egy rövid leíró rész.
 
-+ Minden termékről derüljön ki, hogy Debrecenen belül melyik nagyobb kocsmában lehet kapni.
+   + Fontos, hogy minden termékről kiderüljön, hogy Debrecenen belül melyik nagyobb kocsmában lehet kapni.
 
-+ Amennyiben kapható az adott sör egy pub-ban akkor derüljön ki az is, hogy mennyibe kerül ott.
+   + Amennyiben kapható az adott sör egy pub-ban akkor derüljön ki az is, hogy mennyibe kerül az adott helyen.
 
-+ A webdesign legyen reszponzív.
+   + A webdesign tegye lehetővé a weboldal különféle elektronikai eszközökön való megtekintését, legyen reszponzív.
 
-+ Az oldal maga legyen elérhető az interneten.
+   + Fontos, hogy az oldal maga legyen elérhető az interneten.
 
-+ A weboldal grafikai megjelenése legyen igényes/esztétikus.
+   + Fontos, hogy a weboldal grafikai megjelenése legyen igényes/esztétikus.
 
-## Használt eszközök
+## 4. Használt eszközök
 
 ### Project
 + HTML
 + CSS
++ JavaScript
 
 ### Fejlesztőkörnyezet
 + Visual Studio Code - [https://code.visualstudio.com/](https://code.visualstudio.com/)
