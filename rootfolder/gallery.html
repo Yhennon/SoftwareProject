@@ -4,9 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Főoldal</title>
+    <title>Galéria</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <link rel="shortcut icon" type="img/png" href="img/favicon.jpg">
 </head>
 
@@ -22,14 +24,13 @@
 
     <main>
         <div class="main-wrapper">
-            <h2>Üdv a főoldalon!</h2> <br>
-            
-            <section class="description">
-                <h3>Miről szól az oldal?</h3>
-                <p>Célunk egy galéria létrehozása, ahol különböző, hazánkban, első sorban Debrecenben is kapható sörfajtákat jelenítünk meg.</p> <br>
-                <p>Különböző sörökről készült fényképeket mutatunk be, melléjük leírást illesztve, amiben leírjuk, hogy az általunk kedvelt Debreceni kocsmákban hol kaphatóak, és egyéb információkat.
-                </p>
-            </section>
+
+            <div class="image-gallery">
+                <a href="images/soproni-vilagos.jpg" data-lightbox="mygallery" data-title="Soproni klasszikus világos sör"  ><img src="images/soproni-vilagos.jpg"></a>
+                <a href="images/soproni-meggy.jpg" data-lightbox="mygallery" data-title="Soproni óvatos duhaj meggyes"><img src="images/soproni-meggy.jpg"></a>
+                <a href="images/soproni-ipa.jpg" data-lightbox="mygallery" data-title="Soproni óvatos duhaj ipa"><img src="images/soproni-ipa.jpg"></a>
+            </div>
+
         </div>
     </main>
 
