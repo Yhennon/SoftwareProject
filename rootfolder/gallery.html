@@ -7,9 +7,10 @@
     <title>Galéria</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/lightbox.min.css">
+    <link rel="stylesheet" id="stylesheet" href="css/lightbox.min.css">
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <link rel="shortcut icon" type="img/png" href="img/favicon.jpg">
+    <script src="js/gallery-theme-changer.js"></script>
 </head>
 
 <body>
@@ -18,6 +19,7 @@
             <ul>
                 <li><a href="index.html">Főoldal</a></li>
                 <li><a href="gallery.html">Galéria</a></li>
+                <button id="theme_switch" type="submit" class="stylebutton" onclick="changeTheme()">Change Theme</button>
             </ul>
         </nav>
     </header>
