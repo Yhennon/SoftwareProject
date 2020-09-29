@@ -1,3 +1,4 @@
+
 .lb-loader,.lightbox{
     text-align:center;
     line-height:0;
@@ -16,6 +17,25 @@ body.lb-disable-scrolling{
     filter:alpha(Opacity=80);
     opacity:.8;display:none
 }
+
+body{
+    background-color: rgb(37, 37, 37);
+    color: antiquewhite;
+}
+
+.stylebutton{
+    background-color: rgb(37, 37, 37);
+    color: antiquewhite;
+    padding: 13px 20px;
+    border: none;
+    text-align: center;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 18px;
+    float: right;
+    transform: translate(-20px);
+}
+
+
 .lightbox{width:100%;
     z-index:10000;
     font-weight:400;
