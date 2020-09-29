@@ -39,7 +39,7 @@ body {
     margin: 0px auto;
     border-bottom: 1px solid whitesmoke;
     position: fixed;
-    top: 50px;
+    top: 55px;
     left: 10%;
 }
 
@@ -56,10 +56,20 @@ body {
     line-height: 100%;
 }
 
-.nav-bar ul li a {
+.nav-bar ul li a{
     text-decoration: none;
     display: block;
     color: #ffffff;
+    padding: 8px 8px;
+    
+}
+
+.nav-bar ul li a:hover{
+    background-color: black;
+}
+
+.nav-bar ul li a:active{
+    top: 5px;
 }
 
 main {
@@ -93,4 +103,24 @@ main {
 .image-gallery img:hover {
     filter: grayscale(100%);
     transform: scale(1.1);
+}
+
+.us-gallery {
+    margin: 50px;
+    
+}
+
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.inline-block p{
+    font-size: 150%;
+}
+
+.us-gallery img {
+    padding: 2em;
+    width: 225px;
+    height: 250px;
 }
