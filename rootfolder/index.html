@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Főoldal</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" id="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" id="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="img/png" href="images/favicon.jpg">
+    <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/theme-changer.js"></script>
 </head>
 
@@ -16,29 +18,97 @@
         <nav class="nav-bar">
             <ul>
                 <li><a href="index.html">Főoldal</a></li>
-                <li><a href="gallery.html">Galéria</a></li>
-                <li><a href="about-us.html">Rólunk</a></li>
-                <button id="theme_switch" type="submit" class="stylebutton" onclick="changeTheme()">Change
-                    Theme</button>
+                <li><a href="#gallery">Galéria</a></li>
+                <li><a href="#about-us">Rólunk</a></li>
+                <button id="theme_switch" type="submit" class="stylebutton" onclick="changeTheme()">ChangeTheme</button>
             </ul>
         </nav>
         <div class="nav-bar-bottom-border"></div>
+    
+        <main>
+            <div class="main-wrapper">
+                <h2>Üdv a főoldalon!</h2> <br>
+
+                <section class="description">
+                    <h3>Miről szól az oldal?</h3>
+                    <p>Célunk egy galéria létrehozása, ahol különböző, hazánkban, első sorban Debrecenben is kapható
+                        sörfajtákat jelenítünk meg.</p> <br>
+                    <p>Különböző sörökről készült fényképeket mutatunk be, melléjük leírást illesztve, amiben leírjuk, hogy
+                        az általunk kedvelt Debreceni kocsmákban hol kaphatóak, és egyéb információkat.
+                    </p>
+                </section>
+            </div>
+        </main>
     </header>
 
-    <main>
-        <div class="main-wrapper">
-            <h2>Üdv a főoldalon!</h2> <br>
-
-            <section class="description">
-                <h3>Miről szól az oldal?</h3>
-                <p>Célunk egy galéria létrehozása, ahol különböző, hazánkban, első sorban Debrecenben is kapható
-                    sörfajtákat jelenítünk meg.</p> <br>
-                <p>Különböző sörökről készült fényképeket mutatunk be, melléjük leírást illesztve, amiben leírjuk, hogy
-                    az általunk kedvelt Debreceni kocsmákban hol kaphatóak, és egyéb információkat.
-                </p>
-            </section>
+    <section class="section-gallery" id="gallery">
+        <div class="gallery-main-wrapper">
+            <ul class="beer-showcase">
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/1.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/1.JPG">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/2.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/2.JPG">
+                        </a>
+                    </figure>                   
+                </li>
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/3.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/3.JPG">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/4.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/4.JPG">
+                        </a> 
+                    </figure>
+                </li>
+            </ul>
+            <ul class="beer-showcase">
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/11.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/11.JPG">
+                        </a> 
+                    </figure>
+                </li>
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/12.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/12.JPG">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/13.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/13.JPG">
+                        </a>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="beer-photo">
+                        <a href="images/14.JPG" data-lightbox="mygallery" data-title="proba">
+                            <img src="images/14.JPG">
+                        </a>
+                    </figure>
+                </li>
+            </ul>
         </div>
-    </main>
+    </section>
+
+    <section class="section-about-us" id="about-us">
+
+    </section>
 
     <footer>
 
