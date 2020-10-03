@@ -1,14 +1,16 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Actual code starts here */
 
 html {
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 20px;
+    font-size: 22px;
     color: whitesmoke;
+    text-rendering: optimizeLegibility;
 }
 
 header {
@@ -16,7 +18,6 @@ header {
     background-size: cover;
     background-position: center;
 }
-
 
 body {
     color: whitesmoke;
@@ -56,7 +57,7 @@ header {
 .nav-bar ul {
     margin-left: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 110%;
 }
 
 .nav-bar ul li {
@@ -72,10 +73,6 @@ header {
     color: #ffffff;
 }
 
-main {
-    padding-top: 50px;
-}
-
 .main-wrapper {
     margin: 0 auto;
     width: 90%;
@@ -83,8 +80,19 @@ main {
     padding: 10px;
 }
 
-.main-wrapper h2 {
+h2 {
+    font-size: 150%;
     text-align: center;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-size: 120%;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 90%;
 }
 
 .clearfix::after {
@@ -93,29 +101,28 @@ main {
     display: table;
 }
 
+section {
+    padding: 30px 0;
+}
 
 /* ---------------------------------- */
 /* GALLERY /*
 /* ---------------------------------- */
 
 .section-gallery {
-    background-color: whitesmoke;
+    background-color: #e4e4e4;
+    color: rgb(120, 124, 126);
 }
 
 .gallery-main-wrapper {
     width: 90%;
     margin: 0 auto;
-    padding-top: 20px;
-    color: rgb(120, 124, 126);
-}
-
-.gallery-main-wrapper h2 {
-    text-align: center;
 }
 
 .beer-showcase {
     list-style: none;
     width: 100%;
+    margin: 20px auto;
 }
 
 .beer-showcase li {
@@ -135,7 +142,7 @@ main {
     height: auto;
     background-color: black;
     transform: scale(1.25);
-    opacity: 0.6;
+    opacity: 0.65;
     transition: transform 0.5s, opacity 0.5s;
 }
 
