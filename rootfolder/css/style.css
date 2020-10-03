@@ -5,6 +5,12 @@
 
 /* Actual code starts here */
 
+html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
 header {
     background: linear-gradient(rgba(53, 49, 49, 0.450), rgba(53, 49, 49, 0.450)), url(../images/background-cheers.jpg), no-repeat center center fixed;
     background-size: cover;
@@ -68,7 +74,6 @@ header {
 
 main {
     padding-top: 50px;
-
 }
 
 .main-wrapper {
@@ -78,9 +83,14 @@ main {
     padding: 10px;
 }
 
-
 .main-wrapper h2 {
     text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
@@ -88,10 +98,19 @@ main {
 /* GALLERY /*
 /* ---------------------------------- */
 
+.section-gallery {
+    background-color: whitesmoke;
+}
+
 .gallery-main-wrapper {
-    box-sizing: border-box;
-    width: 100%;
-    margin-top: 0.5%;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+    color: rgb(120, 124, 126);
+}
+
+.gallery-main-wrapper h2 {
+    text-align: center;
 }
 
 .beer-showcase {
@@ -108,10 +127,19 @@ main {
 .beer-photo {
     width: 100%;
     overflow: hidden;
+    background-color: black;
 }
 
 .beer-photo img {
     width: 100%;
     height: auto;
-    transform: scale(1.1)
+    background-color: black;
+    transform: scale(1.25);
+    opacity: 0.6;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.beer-photo img:hover {
+    opacity: 1;
+    transform: scale(1.06);
 }
