@@ -1,18 +1,31 @@
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 /* Actual code starts here */
 
 html {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    color: whitesmoke;
+    text-rendering: optimizeLegibility;
+}
+
+header {
     background: linear-gradient(rgba(53, 49, 49, 0.450), rgba(53, 49, 49, 0.450)), url(../images/background-cheers.jpg), no-repeat center center fixed;
     background-size: cover;
+    background-position: center;
 }
 
 body {
     color: whitesmoke;
     font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header {
+    height: 100vh;
 }
 
 .stylebutton {
@@ -30,7 +43,6 @@ body {
 .nav-bar {
     width: 100%;
     height: 50px;
-    position: fixed;
 }
 
 .nav-bar-bottom-border {
@@ -38,7 +50,6 @@ body {
     height: 2px;
     margin: 0px auto;
     border-bottom: 1px solid whitesmoke;
-    position: fixed;
     top: 50px;
     left: 10%;
 }
@@ -46,7 +57,7 @@ body {
 .nav-bar ul {
     margin-left: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 110%;
 }
 
 .nav-bar ul li {
@@ -62,11 +73,6 @@ body {
     color: #ffffff;
 }
 
-main {
-    padding-top: 50px;
-
-}
-
 .main-wrapper {
     margin: 0 auto;
     width: 90%;
@@ -74,23 +80,73 @@ main {
     padding: 10px;
 }
 
-
-.main-wrapper h2 {
+h2 {
+    font-size: 150%;
     text-align: center;
+    letter-spacing: 1px;
 }
 
-.image-gallery {
-    margin: 10px 50px;
+h3 {
+    font-size: 120%;
+    padding-bottom: 10px;
 }
 
-.image-gallery img {
-    transition: 1s;
-    padding: 15px;
-    width: 108px;
-    height: 130px;
+p {
+    font-size: 90%;
 }
 
-.image-gallery img:hover {
-    filter: grayscale(100%);
-    transform: scale(1.1);
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+section {
+    padding: 30px 0;
+}
+
+/* ---------------------------------- */
+/* GALLERY /*
+/* ---------------------------------- */
+
+.section-gallery {
+    background-color: #e4e4e4;
+    color: rgb(120, 124, 126);
+}
+
+.gallery-main-wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.beer-showcase {
+    list-style: none;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.beer-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.beer-photo {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.beer-photo img {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    transform: scale(1.25);
+    opacity: 0.65;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.beer-photo img:hover {
+    opacity: 1;
+    transform: scale(1.06);
 }

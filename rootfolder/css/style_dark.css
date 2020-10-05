@@ -69,19 +69,48 @@ p {
     
 }
 
-.image-gallery {
-    margin: 10px 50px;
+/* ---------------------------------- */
+/* GALLERY /*
+/* ---------------------------------- */
+
+.section-gallery {
+    background-color: #e4e4e4;
+    color: rgb(120, 124, 126);
 }
 
-.image-gallery img {
-    transition: 1s;
-    padding: 15px;
-    width: 108px;
-    height: 130px;
+.gallery-main-wrapper {
+    width: 90%;
+    margin: 0 auto;
 }
 
-.image-gallery img:hover {
-    filter: grayscale(100%);
-    transform: scale(1.1);
+.beer-showcase {
+    list-style: none;
+    width: 100%;
+    margin: 20px auto;
 }
 
+.beer-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.beer-photo {
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+}
+
+.beer-photo img {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    transform: scale(1.25);
+    opacity: 0.65;
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.beer-photo img:hover {
+    opacity: 1;
+    transform: scale(1.06);
+}
