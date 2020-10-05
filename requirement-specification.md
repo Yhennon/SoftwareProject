@@ -1,33 +1,28 @@
 # Követelmény specifikáció
 
+A megrendelő szeretne egy olyan internetes oldalt, ahol a hazánkban is kapható sörfajtákról látható egy képgaléria, valamint szeretné azt is, hogy az egyes termékekről egy rövid leírás is elérhető legyen. Azt is szeretné, hogy az egyes sörökhöz tartozó árakat is feltüntessük a szülővárosa (Debrecen) nevesebb kocsmái viszonylatában. Ezzel segítve a helyieket/turistákat abban, hogy össze tudják hasonlítani a különböző szórakozóhelyek termékeinek árait, és el tudják dönteni, hogy melyik sört melyik helyen érdemes megvenniük.
+Továbbá a galériában úgy legyenek megoldva az egyes képek, hogy amikor rákattint a felhasználó egy neki szimpatikus sörre, akkor az jelenjen meg az előtérben, a hozzá tartozó leírással együtt. Elvárás az is, hogy legyen egy üdvözlő oldal, ami információval szolgál az oldal lényegéről.
+A megrendelő nem szeretne semmilyen jogi alapú gondba ütközni, ezért megkért minket, fejlesztőket arra, hogy a képeket, ne az internetről töltsük le, hanem keressük fel Debrecen híres pub-jait és saját, de jó minőségű képekkel töltsük fel az oldal galériáját.
 
-## 1. Jelenlegi helyzet
+## Funkció specifikáció
 
-Az esetek többségében sok időt töltünk azzal, hogy kiválasszuk egy szórakozóhelyen/kocsmában, hogy milyen sört is igyunk. Ráadásul az árak sem egységesek a különböző vendéglátó egységeknél, szóval nincs egyszerű dolga az embernek. Ötletünkkel szeretnénk pénzt és időt spórolni.
++	A weboldalon legyen egy igényesen megformált welcome page, valamint egy külön page magának a galériának.
 
-## 2. Vágyálom rendszer
++	Az egyes képeket lehessen megtekinteni külön-külön, azaz bármelyikre rákattintva előtérbe kerüljön.
 
-Célunk egy webböngészőben megtekinthető galéria létrehozása, ahol speciálisan, különböző hazánkban is kapható sörfajtákat jelenítünk meg. Annak érdekében, hogy mindenki el tudja dönteni mielőtt egy adott kocsmába belép, hogy ott milyen sört érdemes fogyasztani, a galériában megjelenő információ tartalmazza az adott termék árát Debrecen híresebb pub-jai viszonylatában.
++	Elvárás, hogy minden képhez tartozzon egy rövid leíró rész.
 
-## 3. Követelménylista 
++	Fontos, hogy minden termékről kiderüljön, hogy Debrecenen belül melyik nagyobb kocsmában lehet kapni.
 
-   + A weboldalon legyen egy igényesen megformált welcome page, valamint egy külön page magának a galériának. 
++	Amennyiben kapható az adott sör egy pub-ban akkor derüljön ki az is, hogy mennyibe kerül az adott helyen.
 
-   + Az egyes képeket lehessen megtekinteni külön-külön, azaz bármelyikre rákattintva előtérbe kerüljön.
++	A webdesign tegye lehetővé a weboldal különféle elektronikai eszközökön való megtekintését, legyen reszponzív.
 
-   + Jó lenne, ha minden képhez tartozna egy rövid leíró rész.
++	Az oldal maga legyen elérhető az interneten.
 
-   + Fontos, hogy minden termékről kiderüljön, hogy Debrecenen belül melyik nagyobb kocsmában lehet kapni.
++	Fontos, hogy a weboldal grafikai megjelenése legyen igényes/esztétikus.
 
-   + Amennyiben kapható az adott sör egy pub-ban akkor derüljön ki az is, hogy mennyibe kerül az adott helyen.
-
-   + A webdesign tegye lehetővé a weboldal különféle elektronikai eszközökön való megtekintését, legyen reszponzív.
-
-   + Fontos, hogy az oldal maga legyen elérhető az interneten.
-
-   + Fontos, hogy a weboldal grafikai megjelenése legyen igényes/esztétikus.
-
-## 4. Használt eszközök
+## Használt eszközök
 
 ### Project
 + HTML
@@ -46,4 +41,3 @@ Célunk egy webböngészőben megtekinthető galéria létrehozása, ahol speci�
 ### Kommunikáció
 + Discord - [https://discord.com/](https://discord.com/)
 + Facebook/Messenger - [https://www.facebook.com/](https://www.facebook.com/)
-
