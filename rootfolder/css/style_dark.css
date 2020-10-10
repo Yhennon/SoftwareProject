@@ -9,7 +9,7 @@
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
-    color: whitesmoke;
+    color: cornsilk;
     text-rendering: optimizeLegibility;
 }
 
@@ -21,17 +21,18 @@ header {
 
 body {
     background-color: rgb(37, 37, 37);
-    color: whitesmoke;
+    color: cornsilk;
     font-family: 'Open Sans Condensed', sans-serif;
 }
 
 header {
     height: 100vh;
+    color: cornsilk;
 }
 
 .stylebutton {
     background-color: inherit;
-    color: whitesmoke;
+    color: cornsilk;
     padding: 13px 20px;
     border: none;
     text-align: center;
@@ -50,7 +51,7 @@ header {
     width: 80%;
     height: 2px;
     margin: 0px auto;
-    border-bottom: 1px solid whitesmoke;
+    border-bottom: 1px solid cornsilk;
     top: 50px;
     left: 10%;
 }
@@ -71,7 +72,7 @@ header {
 .nav-bar ul li a {
     text-decoration: none;
     display: block;
-    color: #ffffff;
+    color: cornsilk;
 }
 
 .main-wrapper {
@@ -112,7 +113,7 @@ section {
 
 .section-gallery {
     background-color: #222222;
-    color: rgb(120, 124, 126);
+    color: cornsilk;
 }
 
 .gallery-main-wrapper {
@@ -319,4 +320,35 @@ body.lb-disable-scrolling{
     cursor:pointer;
     filter:alpha(Opacity=100);
     opacity:1
+}
+
+/*ABOUT-US PAGE*/
+
+.section-about-us {
+    background-color: #222222;
+    color:cornsilk;
+    text-align: center;
+
+}
+
+.us-gallery {
+    margin: 1em;
+    color: cornsilk;
+}
+
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.inline-block p{
+    font-size: 150%;
+    color: cornsilk;
+}
+
+.us-gallery img {
+    display: inline-block;
+    padding: 1em;
+    width: 260px;
+    height: 285px;
 }

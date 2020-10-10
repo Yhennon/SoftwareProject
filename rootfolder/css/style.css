@@ -9,7 +9,7 @@
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
-    color: whitesmoke;
+    color: cornsilk;
     text-rendering: optimizeLegibility;
 }
 
@@ -71,8 +71,15 @@ header {
     text-decoration: none;
     display: block;
     color: #ffffff;
+    padding: 5px 5px;
+}
+.nav-bar ul li a:hover{
+    background-color: darkgray;
 }
 
+.nav-bar ul li a:active{
+    top: 5px;
+}
 .main-wrapper {
     margin: 0 auto;
     width: 90%;
@@ -110,8 +117,8 @@ section {
 /* ---------------------------------- */
 
 .section-gallery {
-    background-color: #e4e4e4;
-    color: rgb(120, 124, 126);
+    background-color: cornsilk;
+    color: rgb(0, 0, 0);
 }
 
 .gallery-main-wrapper {
@@ -318,4 +325,38 @@ body.lb-disable-scrolling{
     cursor:pointer;
     filter:alpha(Opacity=100);
     opacity:1
+}
+
+
+
+
+/*ABOUT-US PAGE*/
+
+.section-about-us {
+    background-color: cornsilk;
+    color: black;
+    text-align: center;
+
+}
+
+.us-gallery {
+    margin: 1em;
+    color: black;
+}
+
+.inline-block {
+    display: inline-block;
+    text-align: center;
+}
+
+.inline-block p{
+    font-size: 150%;
+    color: black;
+}
+
+.us-gallery img {
+    display: inline-block;
+    padding: 1em;
+    width: 260px;
+    height: 285px;
 }
