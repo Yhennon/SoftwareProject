@@ -216,6 +216,17 @@
     <footer>
 
     </footer>
+    <script>
+        document.onscroll = function() {
+            if (window.scrollY == 0) {
+                document.getElementById('homeButton').style.display='none';
+            }
+            else{
+                document.getElementById('homeButton').style.display='inline-block';
+            }
+        }
+    </script>
+    <img src="images/upArrow.png" alt="Up" id="homeButton" onclick="window.scroll({top:0,left:0,behavior:'smooth'});">
 
 </body>
 
