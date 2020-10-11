@@ -339,6 +339,12 @@ body.lb-disable-scrolling{
 
 }
 
+.section-about-us h3{
+    padding: 2em;
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
 .us-gallery {
     margin: 1em;
     color: black;
