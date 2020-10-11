@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Főoldal</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" id="stylesheet" href="css/lightbox.min.css">
     <link rel="stylesheet" id="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="img/png" href="images/favicon.jpg">
     <script src="js/lightbox-plus-jquery.min.js"></script>
@@ -191,12 +190,43 @@
     </section>
 
     <section class="section-about-us" id="about-us">
-
+        <div class="main-wrapper">
+            <h1><center>A Fejlesztő Csapat</center></h1>
+            <div class="us-gallery">
+                <div class="inline-block">
+                    <img src="images/pm.jpg" alt="alt-text">
+                    <p>Pócsi Máté</p>
+                </div>
+                <div class="inline-block">
+                    <img src="images/bim.jpg" alt="alt-text">
+                    <p>Bene Imre</p>
+                </div>
+                <div class="inline-block">
+                    <img src="images/lt.jpg" alt="alt-text">
+                    <p>Loós Tamás</p>
+                </div>
+                <div class="inline-block">
+                    <img src="images/sm.jpg" alt="alt-text">
+                    <p>Stiegelmayer Máté</p>
+                </div>     
+            </div>
+        </div>
     </section>
 
     <footer>
 
     </footer>
+    <script>
+        document.onscroll = function() {
+            if (window.scrollY == 0) {
+                document.getElementById('homeButton').style.display='none';
+            }
+            else{
+                document.getElementById('homeButton').style.display='inline-block';
+            }
+        }
+    </script>
+    <img src="images/upArrow.png" alt="Up" id="homeButton" onclick="window.scroll({top:0,left:0,behavior:'smooth'});">
 
 </body>
 
