@@ -15,12 +15,6 @@ Célunk egy webböngészőben megtekinthető galéria létrehozása, ahol speci�
 
    + Az egyes képeket lehessen megtekinteni külön-külön, azaz bármelyikre rákattintva előtérbe kerüljön.
 
-   + Jó lenne, ha minden képhez tartozna egy rövid leíró rész.
-
-   + Fontos, hogy minden termékről kiderüljön, hogy Debrecenen belül melyik nagyobb kocsmában lehet kapni.
-
-   + Amennyiben kapható az adott sör egy pub-ban akkor derüljön ki az is, hogy mennyibe kerül az adott helyen.
-
    + A webdesign tegye lehetővé a weboldal különféle elektronikai eszközökön való megtekintését, legyen reszponzív.
 
    + Fontos, hogy az oldal maga legyen elérhető az interneten.
