@@ -35,7 +35,7 @@ header {
     border: none;
     text-align: center;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 24px;
+    font-size: 110%;
     float: right;
     transform: translate(-20px);
 }
@@ -47,7 +47,7 @@ header {
 
 .nav-bar-bottom-border {
     width: 80%;
-    height: 2px;
+    height: 20px;
     margin: 0px auto;
     border-bottom: 1px solid whitesmoke;
     top: 50px;
@@ -57,7 +57,7 @@ header {
 .nav-bar ul {
     margin-left: 25px;
     font-family: 'Open Sans Condensed', sans-serif;
-    font-size: 110%;
+    font-size: 130%;
 }
 
 .nav-bar ul li {
@@ -88,18 +88,18 @@ header {
 }
 
 h2 {
-    font-size: 150%;
+    font-size: 200%;
     text-align: center;
     letter-spacing: 1px;
 }
 
 h3 {
-    font-size: 120%;
+    font-size: 180%;
     padding-bottom: 10px;
 }
 
 p {
-    font-size: 90%;
+    font-size: 150%;
 }
 
 .clearfix::after {
