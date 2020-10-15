@@ -6,6 +6,8 @@
 
 /* Actual code starts here */
 
+/*Style of the html*/
+
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
@@ -13,11 +15,15 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*Style of the header*/
+
 header {
     background: linear-gradient(rgba(53, 49, 49, 0.450), rgba(53, 49, 49, 0.450)), url(../images/background-cheers.jpg), no-repeat center center fixed;
     background-size: cover;
     background-position: center;
 }
+
+/*Style of the body*/
 
 body {
     color: whitesmoke;
@@ -27,6 +33,8 @@ body {
 header {
     height: 100vh;
 }
+
+/*Style of the style button*/
 
 .stylebutton {
     background-color: inherit;
@@ -39,6 +47,8 @@ header {
     float: right;
     transform: translate(-20px);
 }
+
+/*Style of the navigation bar*/
 
 .nav-bar {
     width: 100%;
@@ -73,6 +83,8 @@ header {
     color: #ffffff;
     padding: 5px 5px;
 }
+
+
 .nav-bar ul li a:hover{
     background-color: darkgray;
 }
@@ -80,6 +92,9 @@ header {
 .nav-bar ul li a:active{
     top: 5px;
 }
+
+/*Style of the main-wrapper*/
+
 .main-wrapper {
     margin: 0 auto;
     width: 90%;
@@ -87,11 +102,15 @@ header {
     padding: 10px;
 }
 
+/*Style of h2*/
+
 h2 {
     font-size: 200%;
     text-align: center;
     letter-spacing: 1px;
 }
+
+/*Style of h3*/
 
 h3 {
     font-size: 180%;
@@ -115,6 +134,8 @@ section {
 /* ---------------------------------- */
 /* GALLERY /*
 /* ---------------------------------- */
+
+/*Style of the main gallery*/
 
 .section-gallery {
     background-color: cornsilk;
@@ -332,18 +353,23 @@ body.lb-disable-scrolling{
 
 /*ABOUT-US PAGE*/
 
+/*Style of the page*/
+
 .section-about-us {
     background-color: cornsilk;
     color: black;
     text-align: center;
-
 }
+
+/*Style of the quote*/
 
 .section-about-us h3{
     padding: 2em;
     font-style: italic;
     letter-spacing: 2px;
 }
+
+/*Style of the About-us gallery*/
 
 .us-gallery {
     margin: 1em;
@@ -355,10 +381,14 @@ body.lb-disable-scrolling{
     text-align: center;
 }
 
+/*Style of the names below the images*/
+
 .inline-block p{
     font-size: 150%;
     color: black;
 }
+
+/*Images*/
 
 .us-gallery img {
     display: inline-block;
@@ -366,6 +396,8 @@ body.lb-disable-scrolling{
     width: 260px;
     height: 285px;
 }
+
+/*Style of the Home Button*/
 
 #homeButton{
     position: fixed;
