@@ -179,6 +179,14 @@ section {
     transform: scale(1.06);
 }
 
+/* ---------------------------------- */
+/* LIGHTBOX /*
+/* ---------------------------------- */
+
+/*Lightbox is a script used to overlay images on the current page. 
+It's a snap to setup and works on all modern browsers.*/
+/* https://lokeshdhakar.com/projects/lightbox2/ */
+
 .lb-loader,.lightbox{
     text-align:center;
     line-height:0;
