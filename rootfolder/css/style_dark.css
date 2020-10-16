@@ -1,3 +1,4 @@
+/*Very simple reset styling.*/
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,8 @@
 
 /* Actual code starts here */
 
+/*Style of the html*/
+
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
@@ -13,11 +16,15 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*Style of the header*/
+
 header {
     background: linear-gradient(rgba(53, 49, 49, 0.450), rgba(53, 49, 49, 0.450)), url(../images/background-cheers.jpg), no-repeat center center fixed;
     background-size: cover;
     background-position: center;
 }
+
+/*Style of the body*/
 
 body {
     background-color: rgb(37, 37, 37);
@@ -30,6 +37,8 @@ header {
     color: cornsilk;
 }
 
+/*Style of the style button*/
+
 .stylebutton {
     color: cornsilk;
     background-color: inherit;
@@ -41,6 +50,8 @@ header {
     float: right;
     transform: translate(-20px);
 }
+
+/*Style of the navigation bar*/
 
 .nav-bar {
     width: 100%;
@@ -80,6 +91,8 @@ header {
     background-color: black;
 }
 
+/*Style of the main-wrapper*/
+
 .main-wrapper {
     margin: 0 auto;
     width: 90%;
@@ -87,11 +100,15 @@ header {
     padding: 10px;
 }
 
+/*Style of h2*/
+
 h2 {
     font-size: 200%;
     text-align: center;
     letter-spacing: 1px;
 }
+
+/*Style of h3*/
 
 h3 {
     font-size: 180%;
@@ -336,7 +353,7 @@ body.lb-disable-scrolling{
     opacity:1
 }
 
-/*ABOUT-US PAGE*/
+/*ABOUT-US SECTION STARTS HERE*/
 
 .section-about-us {
     background-color: #222222;
@@ -345,11 +362,15 @@ body.lb-disable-scrolling{
 
 }
 
+/*Style of the quote the bottom of the page.*/
+
 .section-about-us h3{
     padding: 2em;
     font-style: italic;
     letter-spacing: 2px;
 }
+
+/*Style of the about-us gallery*/
 
 .us-gallery {
     margin: 1em;
@@ -361,10 +382,14 @@ body.lb-disable-scrolling{
     text-align: center;
 }
 
+/*Style of the names below the images*/
+
 .inline-block p{
     font-size: 150%;
     color: cornsilk;
 }
+
+/*Style of the about-us images*/
 
 .us-gallery img {
     display: inline-block;
@@ -373,6 +398,7 @@ body.lb-disable-scrolling{
     height: 285px;
 }
 
+/*Style of the Home Button*/
 
 #homeButton{
     position: fixed;

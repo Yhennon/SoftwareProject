@@ -1,3 +1,4 @@
+/*Very simple reset styling.*/
 * {
     margin: 0px;
     padding: 0px;
@@ -134,8 +135,6 @@ section {
 /* ---------------------------------- */
 /* GALLERY /*
 /* ---------------------------------- */
-
-/*Style of the main gallery*/
 
 .section-gallery {
     background-color: cornsilk;
@@ -358,12 +357,7 @@ body.lb-disable-scrolling{
     opacity:1
 }
 
-
-
-
-/*ABOUT-US PAGE*/
-
-/*Style of the page*/
+/*ABOUT-US SECTION STARTS HERE*/
 
 .section-about-us {
     background-color: cornsilk;
@@ -371,7 +365,7 @@ body.lb-disable-scrolling{
     text-align: center;
 }
 
-/*Style of the quote*/
+/*Style of the quote the bottom of the page.*/
 
 .section-about-us h3{
     padding: 2em;
@@ -379,7 +373,7 @@ body.lb-disable-scrolling{
     letter-spacing: 2px;
 }
 
-/*Style of the About-us gallery*/
+/*Style of the about-us gallery*/
 
 .us-gallery {
     margin: 1em;
@@ -398,7 +392,7 @@ body.lb-disable-scrolling{
     color: black;
 }
 
-/*Images*/
+/*Style of the about-us images*/
 
 .us-gallery img {
     display: inline-block;
