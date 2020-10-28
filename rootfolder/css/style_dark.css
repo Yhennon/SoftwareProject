@@ -16,6 +16,30 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*Style of the login section*/
+
+.box{
+    font-size: normal;
+    color: white;
+    background: #88705e;
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    border: cornsilk 5px solid; 
+    text-align: center;
+    float: right;
+}
+
+.box h1{
+    font-size: 1em;
+}
+
+.box hr {
+    margin: 0.5em;
+    size: 5px;
+    color: black;
+}
+
 /*Style of the header*/
 
 header {
