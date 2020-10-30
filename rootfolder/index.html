@@ -10,6 +10,7 @@
     <link rel="shortcut icon" type="img/png" href="images/favicon.jpg">
     <script src="js/lightbox-plus-jquery.min.js"></script>
     <script src="js/theme-changer.js"></script>
+    <script src="js/welcome.js"></script>
 </head>
 
 
@@ -21,14 +22,25 @@
             <ul>
                 <li><a href="#home-page">Főoldal</a></li>
                 <li><a href="#gallery">Galéria</a></li>
-                <li><a href="#about-us">Rólunk</a></li>
+                <li><a href="#about-us">Rólunk</a></li>          
                 <button id="theme_switch" type="submit" class="stylebutton" onclick="changeTheme()">Sötét téma</button>
             </ul>
         </nav>
         <div class="nav-bar-bottom-border"></div>
-    
+
+        <!--Name-->
+        <form onsubmit="return false;">
+            
+            <div class="box">
+                <h1>Add meg a neved!</h1>
+                <input type="input" id="usrname">
+                <input type="submit" value="Rendben" onclick="displayGreeting()"/>
+                <hr>
+                <div id="outputDiv"></div>
+            </div>
+        </form>
+
         <div class="main-wrapper">
-            <h2>Üdv a főoldalon!</h2> <br>
 
             <section class="description">
                 <h3>Miről szól az oldal?</h3>
