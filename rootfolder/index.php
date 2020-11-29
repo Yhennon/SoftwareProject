@@ -23,6 +23,7 @@
                 <li><a href="#home-page">Főoldal</a></li>
                 <li><a href="#gallery">Galéria</a></li>
                 <li><a href="#about-us">Rólunk</a></li>
+                <li><a href="profile.php">Profil</a></li>
                 <button id="theme_switch" type="submit" class="stylebutton" onclick="changeTheme()">Sötét téma</button>
             </ul>
         </nav>
