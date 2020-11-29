@@ -18,7 +18,7 @@ html {
 
 /*Style of the login section*/
 
-.box{
+.login-box{
     font-size: normal;
     color: #000;
     background:cornsilk;
@@ -30,15 +30,28 @@ html {
     float: right;
 }
 
-.box h1{
+.login-box h2{
     font-size: 1em;
     color: rgb(41, 39, 39);
 }
 
-.box hr {
-    margin: 0.5em;
+.login-box a {
+    color: #5188E8;
 }
 
+/*Style of the registration section*/ 
+
+.registration-box {
+    font-size: normal;
+    color: #000;
+    background:cornsilk;
+    width: 300px;
+    margin: auto;
+    margin-top: 5%;
+    padding: 1em;
+    border: #88705e 5px solid; 
+    text-align: center;
+}
 
 /*Style of the header*/
 
@@ -71,6 +84,13 @@ header {
     font-size: 110%;
     float: right;
     transform: translate(-20px);
+}
+
+.login-section{
+    margin: 0;
+    padding: 0;
+    height: 50px;
+    width: 100px;
 }
 
 /*Style of the navigation bar*/
