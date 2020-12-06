@@ -4,19 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Főoldal</title>
+    <title>Find My Beer</title>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" id="stylesheet" href="css/style.css">
     <link rel="shortcut icon" type="img/png" href="images/favicon.jpg">
-
-    <link rel="stylesheet" href="fancybox\jquery.fancybox-1.3.4.css" type="text/css" media="screen" />
-
-    <script src="js/theme-changer.js"></script>
     <script src="js/welcome.js"></script>
-
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
-    <script type="text/javascript" src="fancybox\jquery.fancybox-1.3.4.pack.js"></script>
-
 
     <script>
         fetch('https://beer-project2020.herokuapp.com/beers')
@@ -26,40 +18,20 @@
 
                 fetch('https://beer-project2020.herokuapp.com/image/'+beer._id)
                 .then(response => response.json())
-                .then(data => document.getElementById("beerlist").innerHTML +="<li><div><img class='galleryImage' src="+data.image+"><div></li>");
+                .then(data => document.getElementById("beerlist").innerHTML +="<tr><td><img class='galleryImage' src="+data.image+"></td><td class='beerDescription'>"+beer.name+"<br>Típus : "+beer.type+"<br>Kapható: "+beer.venue+" </td></li>");
+
 
                 }); 
             });
     </script>
 
-<script>
 
-setTimeout( () => {
-    $(document).ready(function(){
-
-    $(".galleryImage").each(function(){
-
-            $(this).fancybox({
-
-                    href : $(this).attr('src'),
-
-            });
-    });
-
-    });
-
-}, 3000 );
-
-
-    </script>
 </head>
 
 
 <!-- HOME PAGE STARTS HERE-->
 
 <body>
-
-
 
 
     <header id="home-page">
@@ -69,7 +41,7 @@ setTimeout( () => {
                 <li><a href="#gallery">Galéria</a></li>
                 <li><a href="#about-us">Rólunk</a></li>
                 <li><a href="profile.php">Profil</a></li>
-                <button id="theme_switch" type="submit" class="stylebutton" onclick="changeTheme()">Sötét téma</button>
+
             </ul>
         </nav>
         <div class="nav-bar-bottom-border"></div>
@@ -111,9 +83,14 @@ setTimeout( () => {
             <h2>Galéria</h2>
             <h3>Milyen sörök találhatók itt?</h3>
             <p>A képeken általunk kedvelt Debreceni kocsmákban kapható sörök láthatóak.</p>
-            <ul id="beerlist" class="beer-showcase clearfix">
+
+            <table >
+                <tbody id="beerlist">
+
+                </tbody>
+
+            </table>
                 
-            </ul>
         </div>
     </section>
 
@@ -130,7 +107,9 @@ setTimeout( () => {
                     <p>Pócsi Máté</p>
                 </div>
                 <div class="inline-block">
-                    <img class="galleryImage" src="images/bim.jpg" alt="alt-text">
+
+                    <img src="images/bim.jpg" alt="alt-text">
+
                     <p>Bene Imre</p>
                 </div>
                 <div class="inline-block">

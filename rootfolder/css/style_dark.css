@@ -9,6 +9,26 @@
 
 /*Style of the html*/
 
+.beerDescription{
+    width: 20vw;
+    font-size: 180%;
+}
+
+#beerlist > li{
+    margin: 60px;
+}
+
+
+td{
+    text-align: center;
+}
+
+.galleryImage{
+    max-width: 70%;
+}
+
+
+
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;

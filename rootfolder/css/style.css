@@ -9,20 +9,24 @@
 
 /*Style of the html*/
 
-ul{
-    padding-inline-start: 0px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.beerDescription{
+    width: 20vw;
+    font-size: 180%;
+
 }
 
 #beerlist > li{
     margin: 60px;
 }
 
+
+td{
+    text-align: center;
+}
+
 .galleryImage{
-    max-width: 100%;
+    max-width: 70%;
+
 }
 
 html {
