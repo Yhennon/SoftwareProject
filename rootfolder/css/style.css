@@ -12,6 +12,7 @@
 .beerDescription{
     width: 20vw;
     font-size: 180%;
+
 }
 
 #beerlist > li{
@@ -25,6 +26,7 @@ td{
 
 .galleryImage{
     max-width: 70%;
+
 }
 
 html {

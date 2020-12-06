@@ -20,9 +20,11 @@
                 .then(response => response.json())
                 .then(data => document.getElementById("beerlist").innerHTML +="<tr><td><img class='galleryImage' src="+data.image+"></td><td class='beerDescription'>"+beer.name+"<br>Típus : "+beer.type+"<br>Kapható: "+beer.venue+" </td></li>");
 
+
                 }); 
             });
     </script>
+
 
 </head>
 
@@ -31,6 +33,7 @@
 
 <body>
 
+
     <header id="home-page">
         <nav class="nav-bar">
             <ul>
@@ -38,6 +41,7 @@
                 <li><a href="#gallery">Galéria</a></li>
                 <li><a href="#about-us">Rólunk</a></li>
                 <li><a href="profile.php">Profil</a></li>
+
             </ul>
         </nav>
         <div class="nav-bar-bottom-border"></div>
@@ -79,6 +83,7 @@
             <h2>Galéria</h2>
             <h3>Milyen sörök találhatók itt?</h3>
             <p>A képeken általunk kedvelt Debreceni kocsmákban kapható sörök láthatóak.</p>
+
             <table >
                 <tbody id="beerlist">
 
@@ -86,7 +91,6 @@
 
             </table>
                 
-            </ul>
         </div>
     </section>
 
@@ -103,7 +107,9 @@
                     <p>Pócsi Máté</p>
                 </div>
                 <div class="inline-block">
+
                     <img src="images/bim.jpg" alt="alt-text">
+
                     <p>Bene Imre</p>
                 </div>
                 <div class="inline-block">
