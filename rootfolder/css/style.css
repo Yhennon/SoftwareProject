@@ -9,6 +9,22 @@
 
 /*Style of the html*/
 
+ul{
+    padding-inline-start: 0px;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#beerlist > li{
+    margin: 60px;
+}
+
+.galleryImage{
+    max-width: 100%;
+}
+
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
@@ -187,26 +203,26 @@ section {
 
 .gallery-main-wrapper {
     width: 90%;
-    margin: 0 auto;
+    /*margin: 0 auto;*/
 }
 
 .beer-showcase {
     list-style: none;
     width: 100%;
-    margin: 20px auto;
+    margin: auto;
 }
 
 .beer-showcase li {
     display: block;
     float: left;
     width: calc(25% - 4px);
-    margin: 2px;
 }
 
 .beer-photo {
     width: 100%;
     overflow: hidden;
     background-color: black;
+    margin: auto;
 
 }
 
@@ -270,7 +286,7 @@ body.lb-disable-scrolling{
     position:relative;
     width:250px;
     height:250px;
-    margin:0 auto;
+    /*margin:0 auto;*/
     border-radius:4px;
     background-color:#fff
 }
@@ -344,7 +360,7 @@ body.lb-disable-scrolling{
     opacity:1
 }
 .lb-dataContainer{
-    margin:0 auto;
+    /*margin:0 auto;*/
     padding-top:5px;
     width:100%;
     border-bottom-left-radius:4px;
