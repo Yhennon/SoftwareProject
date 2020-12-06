@@ -1,3 +1,4 @@
+/*Very simple reset styling.*/
 * {
     margin: 0px;
     padding: 0px;
@@ -6,6 +7,27 @@
 
 /* Actual code starts here */
 
+/*Style of the html*/
+
+.beerDescription{
+    width: 20vw;
+    font-size: 180%;
+}
+
+#beerlist > li{
+    margin: 60px;
+}
+
+
+td{
+    text-align: center;
+}
+
+.galleryImage{
+    max-width: 70%;
+}
+
+
 html {
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 22px;
@@ -13,11 +35,39 @@ html {
     text-rendering: optimizeLegibility;
 }
 
+/*Style of the login section*/
+
+.box{
+    font-size: normal;
+    color: white;
+    background: #88705e;
+    width: 300px;
+    margin: 1em;
+    padding: 1em;
+    border: cornsilk 5px solid; 
+    text-align: center;
+    float: right;
+}
+
+.box h1{
+    font-size: 1em;
+}
+
+.box hr {
+    margin: 0.5em;
+    size: 5px;
+    color: black;
+}
+
+/*Style of the header*/
+
 header {
     background: linear-gradient(rgba(53, 49, 49, 0.450), rgba(53, 49, 49, 0.450)), url(../images/background-cheers.jpg), no-repeat center center fixed;
     background-size: cover;
     background-position: center;
 }
+
+/*Style of the body*/
 
 body {
     background-color: rgb(37, 37, 37);
@@ -30,6 +80,8 @@ header {
     color: cornsilk;
 }
 
+/*Style of the style button*/
+
 .stylebutton {
     color: cornsilk;
     background-color: inherit;
@@ -41,6 +93,8 @@ header {
     float: right;
     transform: translate(-20px);
 }
+
+/*Style of the navigation bar*/
 
 .nav-bar {
     width: 100%;
@@ -80,6 +134,8 @@ header {
     background-color: black;
 }
 
+/*Style of the main-wrapper*/
+
 .main-wrapper {
     margin: 0 auto;
     width: 90%;
@@ -87,11 +143,15 @@ header {
     padding: 10px;
 }
 
+/*Style of h2*/
+
 h2 {
     font-size: 200%;
     text-align: center;
     letter-spacing: 1px;
 }
+
+/*Style of h3*/
 
 h3 {
     font-size: 180%;
@@ -135,7 +195,8 @@ section {
 .beer-showcase li {
     display: block;
     float: left;
-    width: 25%;
+    width: calc(25% - 4px);
+    margin: 2px;
 }
 
 .beer-photo {
@@ -157,6 +218,14 @@ section {
     opacity: 1;
     transform: scale(1.06);
 }
+
+/* ---------------------------------- */
+/* LIGHTBOX /*
+/* ---------------------------------- */
+
+/*Lightbox is a script used to overlay images on the current page. 
+It's a snap to setup and works on all modern browsers.*/
+/* https://lokeshdhakar.com/projects/lightbox2/ */
 
 .lb-loader,.lightbox{
     text-align:center;
@@ -327,7 +396,7 @@ body.lb-disable-scrolling{
     opacity:1
 }
 
-/*ABOUT-US PAGE*/
+/*ABOUT-US SECTION STARTS HERE*/
 
 .section-about-us {
     background-color: #222222;
@@ -336,11 +405,15 @@ body.lb-disable-scrolling{
 
 }
 
+/*Style of the quote the bottom of the page.*/
+
 .section-about-us h3{
     padding: 2em;
     font-style: italic;
     letter-spacing: 2px;
 }
+
+/*Style of the about-us gallery*/
 
 .us-gallery {
     margin: 1em;
@@ -352,10 +425,14 @@ body.lb-disable-scrolling{
     text-align: center;
 }
 
+/*Style of the names below the images*/
+
 .inline-block p{
     font-size: 150%;
     color: cornsilk;
 }
+
+/*Style of the about-us images*/
 
 .us-gallery img {
     display: inline-block;
@@ -364,6 +441,7 @@ body.lb-disable-scrolling{
     height: 285px;
 }
 
+/*Style of the Home Button*/
 
 #homeButton{
     position: fixed;
